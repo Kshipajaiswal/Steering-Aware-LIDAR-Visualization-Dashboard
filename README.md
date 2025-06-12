@@ -13,3 +13,6 @@ This project displays real-time LIDAR data and the vehicle’s steering angle to
 * Frontend: HTML, CSS, JavaScript
 * Data Source: LIDAR Sensor
 * Charting: Custom Radar Chart
+
+## GUI Preview:
+https://github.com/user-attachments/assets/99f4d5ca-f5d9-41b6-b825-d5514eaff5aa
