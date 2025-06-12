@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LIDAR GUI</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h2 style="text-align:center;">LIDAR Live Scan</h2>
+    <div id="steering-angle-display">Steering Angle: 0°</div>
+    <div class="container">
+        <div class="table-container">
+            <table id="data-table">
+                <thead>
+                    <tr><th>Angle</th><th>Distance</th><th>Intensity</th></tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+        
+        <div class="chart-container">
+            <div class="car-visual-container">
+                <div id="car">
+                    <div class="wheel front left"></div>
+                    <div class="wheel front right"></div>
+                    <div class="wheel rear left"></div>
+                    <div class="wheel rear right"></div>
+                </div>
+            </div>
+            <canvas id="radarChart"></canvas>
+        </div>
+    </div>
+    
+    <script src="{{ url_for('static', filename='radar_chart.js') }}"></script>
+</body>
+</html>
