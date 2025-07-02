@@ -10,6 +10,19 @@ This project displays real-time LIDAR data and the vehicle’s steering angle to
 - [How to Test](#how-to-test)
 - [Future Scope](#future-scope)
 
+## Introduction
+This project presents a real-time dashboard designed to visualize LIDAR sensor data alongside a vehicle’s steering angle. The system captures live TCP stream data from a LIDAR sensor and renders it into a responsive and interactive GUI.
+
+Key elements of the dashboard include:
+* A radar-style chart that visually represents the surrounding objects.
+
+* A live-updating data table showing detailed angle, distance, and intensity values.
+
+* A car model that turns to reflect real-time steering angle using Ackermann geometry.
+
+This tool is highly useful for applications in autonomous vehicles, robotics, and mobile navigation systems, where understanding environmental layout and steering dynamics is crucial.
+
+
 ## Features
 * Real-time data from a LIDAR sensor (TCP stream).
 * Live updating data table and radar scanner view.
