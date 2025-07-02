@@ -47,5 +47,28 @@ The main goal of this project is to develop a real-time visualization dashboard 
 
 * Enhances understanding of spatial orientation by using visual elements like a turning car model, radar view, and live data tables.
 
+## How to Test
+To run and test this project locally:
+1. Connect LIDAR Sensor
+
+* Ensure the LIDAR device is connected to your PC via TCP/IP.
+
+* Confirm the IP address and port are correctly set in the Python script.
+
+2. Install Dependencies
+* pip install flask
+3. Start the Flask App
+* python app.py
+4. Open the Dashboard
+* Open your browser and go to: http://localhost:5000
+* You will see:
+  * A live radar chart
+  * Steering angle car model
+  * Real-time data table (angle, distance, intensity)
+
+5. Interact with the System
+* Rotate the steering (simulated or real) and see the car's front wheels turn accordingly.
+* Watch LIDAR data update as the sensor scans the environment.
+
 ## GUI Preview
 https://github.com/user-attachments/assets/99f4d5ca-f5d9-41b6-b825-d5514eaff5aa
