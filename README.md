@@ -4,24 +4,24 @@ This project displays real-time LIDAR data and the vehicle’s steering angle to
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
-- [Tech Stack](#🚀-tech-stack)
+- [Tech Stack](#tech-stack)
 - [Objective of the Work](#objective-of-the-work)
 - [GUI Preview](#gui-preview)
 - [How to Test](#how-to-test)
 - [Future Scope](#future-scope)
 
-## 🚀 Features
+## Features
 * Real-time data from a LIDAR sensor (TCP stream).
 * Live updating data table and radar scanner view.
 * Visual steering indicator based on angle.
 * Flask backend + HTML/CSS/JS frontend.
 * Responsive and interactive GUI layout.
 
-## 🛠️ Tech Stack
+## 🛠Tech Stack
 * Backend: Python, Flask
 * Frontend: HTML, CSS, JavaScript
 * Data Source: LIDAR Sensor
 * Charting: Custom Radar Chart
 
-## 📺 GUI Preview
+## GUI Preview
 https://github.com/user-attachments/assets/99f4d5ca-f5d9-41b6-b825-d5514eaff5aa
