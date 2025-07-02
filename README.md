@@ -6,8 +6,8 @@ This project displays real-time LIDAR data and the vehicle’s steering angle to
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Objective of the Work](#objective-of-the-work)
-- [GUI Preview](#gui-preview)
 - [How to Test](#how-to-test)
+- [GUI Preview](#gui-preview)
 - [Future Scope](#future-scope)
 
 ## Introduction
@@ -72,3 +72,22 @@ To run and test this project locally:
 
 ## GUI Preview
 https://github.com/user-attachments/assets/99f4d5ca-f5d9-41b6-b825-d5514eaff5aa
+
+## Future Scope
+* 3D Visualization
+Upgrade from 2D to 3D radar and car models using tools like Three.js or Unity for richer visualization.
+
+* Obstacle Avoidance
+Add real-time path planning and obstacle avoidance using algorithms like A* or Dijkstra.
+
+* Autonomous Navigation
+Extend the system to include full vehicle automation by integrating GPS and IMU sensors.
+
+* Data Logging and Playback
+Record LIDAR data and vehicle movement for analysis, replay, or debugging.
+
+* Web-based Remote Access
+Host the dashboard online for remote monitoring of the vehicle and environment.
+
+* Machine Learning Integration
+Use AI to detect objects from LIDAR patterns (e.g., people, walls, doors) and classify navigation zones.
