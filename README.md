@@ -30,11 +30,22 @@ This tool is highly useful for applications in autonomous vehicles, robotics, an
 * Flask backend + HTML/CSS/JS frontend.
 * Responsive and interactive GUI layout.
 
-## 🛠Tech Stack
+## Tech Stack
 * Backend: Python, Flask
 * Frontend: HTML, CSS, JavaScript
 * Data Source: LIDAR Sensor
 * Charting: Custom Radar Chart
+
+## Objective of the Work
+The main goal of this project is to develop a real-time visualization dashboard for a Robotic Mobile Vehicle (RMV) that:
+
+* Displays live LIDAR scan data to detect surrounding obstacles.
+
+* Computes and shows the vehicle’s steering angle using Ackermann steering geometry.
+
+* Helps in trajectory planning and navigation of the vehicle for tasks such as automated painting or movement in constrained environments.
+
+* Enhances understanding of spatial orientation by using visual elements like a turning car model, radar view, and live data tables.
 
 ## GUI Preview
 https://github.com/user-attachments/assets/99f4d5ca-f5d9-41b6-b825-d5514eaff5aa
