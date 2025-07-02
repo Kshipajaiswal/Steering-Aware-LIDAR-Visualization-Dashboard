@@ -4,7 +4,7 @@ This project displays real-time LIDAR data and the vehicle’s steering angle to
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
-- [Tech Stack](#tech-stack)
+- [Tech Stack](#🚀-tech-stack)
 - [Objective of the Work](#objective-of-the-work)
 - [GUI Preview](#gui-preview)
 - [How to Test](#how-to-test)
